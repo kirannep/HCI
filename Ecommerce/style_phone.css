@@ -1,0 +1,26 @@
+
+/*This page styles the images within the several product page(samsung,iphone,htc and sony). Has effect on image, panel containing image, button and the list */
+
+.phone{
+	margin-bottom:0px;
+}
+
+.panel{
+	width:350px;
+}
+
+.btn.btn-info{
+  width: 120px;
+  font-size: 18px;
+  margin-right:20px;
+}
+
+.bulletStyle li{
+	display:block;
+}
+.bulletStyle li:before {
+    content: "\e080";
+	font-family: 'Glyphicons Halflings';
+    float: left;
+
+}

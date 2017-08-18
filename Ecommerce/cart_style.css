@@ -1,0 +1,74 @@
+body
+{
+	background-color:#E6E6E6;
+	font-family:helvetica;
+	margin:0px auto;
+	padding:0px;
+}
+
+.box{
+border:0px red dotted;
+}
+
+.navbar .nav #numOfProduct{/*looks for id numOfProduct in .navbar class witin .nav class,it styles the number in circle that is displayed with cart icon */
+	border-radius:100%;/*number icon to make it circle */
+	height:20px;
+	width:20px;
+	float:left;
+	font-size:9px;
+	background-color:blue;
+	color:white;
+}
+
+.navbar .nav #cart_icon .glyphicon{/*styling cart icon*/
+	float:right;
+	width:0px;
+	margin-left:0px;
+}
+
+.navbar .nav .p{
+		text-align:right;
+
+}
+#modalCart
+{
+	display:none;
+	background-color:white;
+	width:800px;
+	height:600px;
+	margin-left:100px;
+	
+}
+#modalCart .cart_items
+{
+	border-bottom:0px dashed silver;
+	padding:20px;
+	padding-left:0px;
+}
+#modalCart .cart_items img
+{
+	width:40%;
+	float:left;
+}
+#modalCart .cart_items p
+{
+	margin:0px;
+	font-size:17px;
+	color:green;
+}
+h1
+{
+	margin-top:100px;
+	color:green;
+	text-align:center;
+}
+#item_div
+{
+	float:left;
+	margin-left:60px;
+}
+
+.items p
+{
+	color: green;
+}

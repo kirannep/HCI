@@ -1,0 +1,52 @@
+
+$(document).ready(function(){
+	$.ajax({
+	type:'post',
+	url:'Product_cart.php',
+	data:{
+          total_products_in_cart:"total_products"
+        },
+    success:function(response) {
+          document.getElementById("total_products").value=response;
+        }
+	});
+
+});
+
+function cart(id)
+    {
+	  var element=document.getElementById(id);
+	  var img_src=ele.getElementsByTagName("img")[0].src;
+	  var name=document.getElementById(id+"_name").value;
+	  var price=document.getElementById(id+"_price").value;
+	
+	  $.ajax({
+        type:'post',
+        url:'Product_cart.php',
+        data:{
+          product_src:img_src,
+          product_name:name,
+          product_price:price
+        },
+        success:function(response) {
+          document.getElementById("total_products").value=response;
+        }
+      });
+	
+    }
+
+function display_cart()
+    {
+      $.ajax({
+      type:'post',
+      url:'Product_cart.php',
+      data:{
+        showcart:"cart"
+      },
+      success:function(response) {
+        document.getElementById("displayCart").innerHTML=response;
+        $("#displayCart").slideToggle();
+      }
+     });
+
+    }

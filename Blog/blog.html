@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Blog</title>
+	<meta charset="utf-8" />
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+
+<body>
+	<nav class="navbar navbar-default">
+	  <div class="container-fluid">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		  </button>
+		  <a class="navbar-brand" href="#">Kiran Nepali</a>
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		  <ul class="nav navbar-nav">
+			<li class="active"><a href="#">Articles <span class="sr-only">(current)</span></a></li>
+			<li><a href="#">Contact</a></li>
+			<li><a href="#">About</a></li>
+		  </ul>
+		  
+		  <ul class="nav navbar-nav navbar-right">
+			<li><a href ="#">Random</a></li>
+		  </ul>
+		</div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+	
+	<!--container containing contents-->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 leftColumn box">
+				<aside>
+					<img src="image/mypic.jpg" width ="90px" height="120px" class="img-circle" />
+				</aside>
+				<h4>Kiran Nepali</h4>
+				<p>Student @Royal Holloway</p>
+				<hr/>
+				<p>Share this page on:</p>
+				<ul class="list-inline">
+					<li><img src="image/twitter.png" /></li>
+					<li><img src="image/facebook.png" /></li>
+					<li><img src="image/googleplus.png" /></li>
+					<li><img src="image/linkedin.png" /></li>
+					<li><img src="image/email.png" /></li>
+				</ul>
+			</div>
+			<div class="col-md-8 box">
+				<article>
+					<header><h2>My Biography</h2></header>
+					<footer><small>Posted on 18 Oct 2016</small></footer>
+					<p class ="lead">Vivamus sagittis lacus vel augue laoreet rutrum faucibus 
+					dolor auctor. Duis mollis, est non commodo luctus <a href="#">Read more</a>
+					</p>
+				<article>
+				<div id = "comment">
+				<h3>Comments</h3>
+					<header>
+						<small><b>John Smith</b> Commented on:5 October 2016</small>
+					</header>
+					<div class = "row">
+						<div class = "col-md-12">
+						
+							<p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus 
+								dolor auctor. Duis mollis, est non commodo</p>
+						</div>
+					</div>
+				</div>
+				<hr/>
+				<form>
+					  <div class="form-group">
+					      <label>Name</label>
+						  <input type="text" class="form-control" id="name" placeholder="Name">
+					  </div>
+					  <div class="form-group">
+						  <label>Email address</label>
+						  <input type="email" class="form-control" id="email" placeholder="Email">
+					  </div>
+					  
+					  <div class="form-group">
+						  <label>Message</label>
+						  <textarea class = "form-control" id = "message"></textarea>
+					  </div>
+					  
+					  <button type="submit" class="btn btn-default">Submit</button>
+				</form>
+				<hr/>
+				
+				
+				
+				<nav aria-label="Page navigation">
+					<ul class="pagination">
+						<li>
+							<a href="#" aria-label="Previous">
+								<span aria-hidden="true">&laquo;</span>
+							</a>
+						</li>
+							<li><a href="#">1</a></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+							<li><a href="#">4</a></li>
+							<li><a href="#">5</a></li>
+						<li>
+							<a href="#" aria-label="Next">
+								<span aria-hidden="true">&raquo;</span>
+							</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>	
+	</div>
+</body>
+</html>

@@ -1,0 +1,124 @@
+
+
+.box {
+  border:0px red dotted;
+}
+.panel{
+margin-left:40px;
+}
+
+.customCarousel{/* Custom made styling carousel */
+  width: 600px;
+ margin: 0 auto;/* put carousel in center*/
+}
+
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+
+}
+
+header {
+  padding: 20px 0;
+}
+
+header .row, footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 3em;
+  font-weight: 700;
+  color:black;
+  margin: 0;
+}
+
+header nav {
+  justify-content: flex-end;
+}
+
+.btn.btn-info{
+  width: 150px;
+}
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.jumbotron {
+      margin-bottom: 0;
+    }
+
+.navbar {
+      margin-top:0;
+      margin-bottom: 50px;
+      border-radius: 1;
+    }
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: #0000ff;
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);
+  }
+
+  .carousel-indicators .active {
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+    background-color: #ffff99;
+}
+
+section .row img{
+   width: 50%;
+}
+
+section .row p{
+text-align: center;
+}
+
+.popover {
+max-width:400px;
+}
+
+.display_product .checkbox h3{
+	text-align: center;
+}
+
+.display_product .checkbox h4{
+	text-align: center;
+}
+
+footer {
+  background-color: #f2f2f2;
+  font-size: 12px;
+  padding: 20px 0;
+  margin-top:20px;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+form { 
+margin: 0 auto; 
+width:250px;
+}

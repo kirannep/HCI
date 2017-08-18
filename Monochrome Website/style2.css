@@ -1,0 +1,16 @@
+.jumbotron{
+width: 100%;
+font-size: 20px;
+}
+
+.jumbotron h2{
+font-family: "Lucida Console", Monaco, monospace;
+font-size: 40px;
+font-weight: 700;
+margin: 0;
+text-decoration: underline;
+}
+
+.container{
+font-family: "Times New Roman", Times, serif;
+}
